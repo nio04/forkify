@@ -42,7 +42,7 @@ const controlRecipe = async () => {
 const controlSearchResults = async () => {
   try {
     resultsView.renderSpinner();
-
+    console.log('hit');
     // SEARCH QUERY
     const query = searchView.getQuery();
 
